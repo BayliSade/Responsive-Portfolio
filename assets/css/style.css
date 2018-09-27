@@ -1,0 +1,194 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+} 
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/dust_scratches.png");
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    border-bottom: solid #777777 2px;
+    background-color: white;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+  
+.nav li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 30px; 
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a:hover {
+    color: #F67BC5;
+}
+
+h1 {
+    color: white;
+    margin-top: 0;
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    padding-top: 20px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+}
+
+.main-content {
+    background-color: white;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.about-me {
+    border-bottom: solid 2px #777777;
+}
+
+.hazel {
+    width: 250px;
+    float: left;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.main-paragraph {
+    line-height: 40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.footer-text {
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 15px;
+    color: white;
+}
+
+.footer-color {
+    height: 50px;
+    margin-top: 40px;
+    background-color: #777777;
+    border-top: solid #4aaaa5 3px;
+}
+
+.portfolio {
+    border-bottom: 2px #777777 solid;
+    margin-bottom: 50px;
+}
+
+section {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.gallery-images {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    padding-right: 40px;
+    margin-bottom: 50px;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background:  rgb(74, 170, 165);
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.gallery-images:hover .overlay {
+    opacity: 1;
+  } 
+
+.clear {
+    clear: both;
+}
+
+.text {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    background: #4aaaa5;
+    color: white;
+    width: 300px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 100px;
+    color: white;
+}
+
+button:hover {
+    background-color: #F67BC5;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    padding-bottom: 75px;
+}
+
+
