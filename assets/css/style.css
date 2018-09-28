@@ -218,6 +218,10 @@ form {
 }
 
 @media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+
     .hazel {
         display: block;
         margin-left: auto;
@@ -269,6 +273,10 @@ form {
 }
 
 @media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+
     .clearfix, .portfolio-background {
         margin: 0;
         width: 100%;
@@ -294,3 +302,5 @@ form {
 }
 
 /* Ending media queries for portfolio.html */
+
+/* Starting media quries for contact.html */
