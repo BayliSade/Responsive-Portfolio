@@ -304,3 +304,9 @@ form {
 /* Ending media queries for portfolio.html */
 
 /* Starting media quries for contact.html */
+
+@media screen and (max-width: 980px) {
+    form {
+        width: 400px;
+    }
+}
